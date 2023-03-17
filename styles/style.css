@@ -1,0 +1,212 @@
+/************************************GENERAL*****************************************/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: lightgrey;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap-params {
+    height: 100%;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+/*************************************USERS*******************************************/
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.user-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 45%;
+    flex-grow: 0;
+    height: 36px;
+    padding: 3px;
+    color: darkblue;
+    border: 2px groove;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+
+.user-block:hover {
+    border: 2px solid darkblue;
+    font-weight: bold;
+}
+
+.reference {
+    padding: 0 6px;
+    background: lightgrey;
+    font-size: 14px;
+    transition: all 300ms ease;
+    border: 2px outset darkgrey;
+    border-radius: 7px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 12px;
+}
+
+.reference:hover {
+    background: darkblue;
+    color: greenyellow;
+    min-width: 100px;
+}
+
+/******************************************DETAILS*************************************/
+.container {
+    max-width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.wrapper-2 {
+    width: 99%;
+    min-height: 45%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px groove;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px darkblue;
+}
+
+
+.info-block {
+    min-height: 56px;
+    background-color: azure;
+    flex-basis: 18%;
+    text-align: center;
+    font-weight: bold;
+    border: inset;
+    border-radius: 7px;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block h4 {
+    margin: 0;
+}
+
+.post-block {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.post-block .list {
+    margin: 0 0 0 60px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.list li {
+    flex-basis: 48%;
+}
+
+.list li a {
+    margin-left: 5px;
+    padding: 0 6px;
+    background: lightgrey;
+    font-size: 11px;
+    color: azure;
+    border: 1px solid;
+    border-radius: 7px;
+    transition: all 300ms ease;
+}
+
+.list li a:hover {
+    background: darkblue;
+    color: greenyellow;
+}
+
+.post-btn {
+    width: 135px;
+    padding: 5px;
+    align-self: center;
+    background: lightgrey;
+    color: black;
+    cursor: pointer;
+    transition: all 300ms ease;
+    border: 3px outset;
+    border-radius: 15px;
+}
+
+.post-btn:hover {
+    background: darkblue;
+    color: greenyellow;
+}
+
+/******************************************POSTS***************************************/
+
+.wrapper-3 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-info {
+    height: 80%;
+    min-width: 75%;
+    padding: 10px 30px;
+    border: 2px groove;
+    border-radius: 60px 60px 30px 30px;
+    background-color: azure;
+    box-shadow: 10px 10px 15px darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post-info p {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.post-info ul {
+    padding-left: 0;
+    font-style: italic;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.post-info ul::before {
+    content: 'Comments:';
+}
+
+.post-info ul li {
+    padding: 5px;
+    border: groove;
+}
+
+.post-info span {
+    color: indigo;
+    font-family: cursive;
+    font-weight: bold;
+}
