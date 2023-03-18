@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="mini project done.">
+    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="mini project done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <updated>1679090392305</updated>
       <workItem from="1679090393305" duration="19000" />
       <workItem from="1679090439157" duration="9558000" />
-      <workItem from="1679151436064" duration="1607000" />
+      <workItem from="1679151436064" duration="2788000" />
     </task>
     <task id="LOCAL-00001" summary="mini project done">
       <created>1679090959682</created>
@@ -71,15 +68,22 @@
       <option name="project" value="LOCAL" />
       <updated>1679098778813</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mini project done">
+      <created>1679153791475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679153791475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mini project done" />
     <MESSAGE value="mini project done." />
-    <option name="LAST_COMMIT_MESSAGE" value="mini project done." />
+    <MESSAGE value="mini project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini project done" />
   </component>
 </project>
