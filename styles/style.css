@@ -15,13 +15,13 @@ a {
 
 .wrap-params {
     height: 100%;
-    max-width: 1200px;
-    padding: 15px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /*************************************USERS*******************************************/
-.wrapper {
-    margin: 0 auto;
+.main-users-block {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -46,7 +46,7 @@ a {
     font-weight: bold;
 }
 
-.reference {
+.user-btn {
     padding: 0 6px;
     background: lightgrey;
     font-size: 14px;
@@ -60,7 +60,7 @@ a {
     top: 12px;
 }
 
-.reference:hover {
+.user-btn:hover {
     background: darkblue;
     color: greenyellow;
     min-width: 100px;
@@ -68,16 +68,13 @@ a {
 
 /******************************************DETAILS*************************************/
 .container {
-    max-width: 100vw;
-    height: 100vh;
-    padding: 10px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
-.wrapper-2 {
-    width: 99%;
+.main-data {
+    max-width: 100%;
     min-height: 45%;
     margin-top: 50px;
     display: flex;
@@ -108,12 +105,12 @@ a {
     margin: 0;
 }
 
-.post-block {
+.post-title-block {
     margin-top: 80px;
     width: 100%;
 }
 
-.post-block .list {
+.post-title-block .list {
     margin: 0 0 0 60px;
     padding-left: 0;
     display: flex;
@@ -161,8 +158,7 @@ a {
 
 /******************************************POSTS***************************************/
 
-.wrapper-3 {
-    margin: 0 auto;
+.main-post-block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +166,7 @@ a {
 
 .post-info {
     height: 80%;
-    min-width: 75%;
+    max-width: 90%;
     padding: 10px 30px;
     border: 2px groove;
     border-radius: 60px 60px 30px 30px;
@@ -190,14 +186,20 @@ a {
 .post-info ul {
     padding-left: 0;
     font-style: italic;
-    font-size: 14px;
+    font-size: 13px;
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 7px;
 }
 
 .post-info ul::before {
     content: 'Comments:';
+}
+
+span {
+    color: darkred;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
 }
 
 .post-info ul li {
@@ -205,7 +207,11 @@ a {
     border: groove;
 }
 
-.post-info span {
+.post-info ul li:first-letter {
+    text-transform: uppercase;
+}
+
+.post-info .email-style {
     color: indigo;
     font-family: cursive;
     font-weight: bold;

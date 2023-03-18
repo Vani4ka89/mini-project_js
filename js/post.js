@@ -19,9 +19,10 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
                 const list = document.createElement('ul');
                 for (const comment of comments) {
                     const span = document.createElement('span');
+                    span.classList.add('email-style');
                     span.innerText = `_${comment.email}`;
                     const item = document.createElement('li');
-                    item.innerText = `${comment.body}. `;
+                    item.innerHTML = `<span>${comment.name}:</span> ${comment.body}. `;
                     item.appendChild(span);
                     list.appendChild(item);
                     postInfo.appendChild(list);

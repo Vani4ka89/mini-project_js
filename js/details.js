@@ -10,7 +10,7 @@ const userId = url.searchParams.get('userId');
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(value => value.json())
     .then(user => {
-        const mainBlock = document.getElementsByClassName('wrapper-2')[0];
+        const mainBlock = document.getElementsByClassName('main-data')[0];
 
         function getInfoFromUser(user) {
             for (const key in user) {
@@ -32,7 +32,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
         fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
             .then(value => value.json())
             .then(posts => {
-                const titles = document.getElementsByClassName('post-block')[0];
+                const titles = document.getElementsByClassName('post-title-block')[0];
                 const container = document.getElementsByClassName('container')[0];
                 const list = document.createElement('ul');
                 list.classList.add('list');
