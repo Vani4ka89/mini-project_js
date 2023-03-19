@@ -26,6 +26,9 @@ a {
     max-width: 1240px;
     margin: 0 auto;
     padding: 10px;
+    background-image: url('../images/img-bg-light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*************************************USERS*******************************************/
@@ -69,7 +72,7 @@ a {
 }
 
 .user-btn:hover {
-    background: darkblue;
+    background: #2e428d;
     color: greenyellow;
     min-width: 100px;
 }
@@ -128,16 +131,15 @@ a {
 .list li a {
     margin-left: 5px;
     padding: 0 6px;
-    background: lightgrey;
     font-size: 11px;
-    color: azure;
+    color: #10a3a3;
     border: 1px solid;
     border-radius: 7px;
     transition: all 300ms ease;
 }
 
 .list li a:hover {
-    background: darkblue;
+    background: #2e428d;
     color: greenyellow;
 }
 
@@ -154,7 +156,7 @@ a {
 }
 
 .post-btn:hover {
-    background: darkblue;
+    background: #2e428d;
     color: greenyellow;
 }
 
