@@ -78,7 +78,6 @@ a {
 .container {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
     justify-content: center;
 }
 
@@ -143,7 +142,7 @@ a {
 }
 
 .post-btn {
-    width: 135px;
+    width: 200px;
     padding: 5px;
     align-self: center;
     background: lightgrey;
@@ -253,6 +252,7 @@ span {
         padding-left: 25px;
     }
 }
+
 /*Small*/
 @media screen and (min-width: 576px ) and ( max-width: 767px ) {
     .main-users-block {
@@ -279,6 +279,7 @@ span {
         flex-basis: 44%;
     }
 }
+
 /*Medium*/
 @media screen and (min-width: 768px ) and ( max-width: 991px ) {
     .main-users-block {
@@ -289,16 +290,19 @@ span {
         flex-basis: 32%;
     }
 }
+
 /*Large*/
 @media screen and (min-width: 992px ) and ( max-width: 1199px ) {
     .info-block {
         flex-basis: 32%;
     }
 }
+
 /*X-Large*/
 @media screen and (min-width: 1200px ) and ( max-width: 1399px ) {
 
 }
+
 /*XX-Large*/
 @media screen and (min-width: 1400px ) {
 
