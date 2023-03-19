@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="edit file style.css, added padding added media query, edit media.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="edit file style.css, added padding added media query, edit media." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <workItem from="1679176598057" duration="4526000" />
       <workItem from="1679208749138" duration="248000" />
       <workItem from="1679209118053" duration="7647000" />
-      <workItem from="1679218275783" duration="4457000" />
+      <workItem from="1679218275783" duration="5370000" />
     </task>
     <task id="LOCAL-00001" summary="mini project done">
       <created>1679090959682</created>
@@ -171,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679224205426</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edit file style.css, added padding added media query, edit media.">
+      <created>1679225484727</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679225484727</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
