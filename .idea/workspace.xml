@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="added media.css file">
-      <change afterPath="$PROJECT_DIR$/images/img-bg-light.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="changed bg image" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +65,7 @@
       <workItem from="1679209118053" duration="7647000" />
       <workItem from="1679218275783" duration="5370000" />
       <workItem from="1679225606346" duration="443000" />
-      <workItem from="1679228659308" duration="2569000" />
+      <workItem from="1679228659308" duration="3067000" />
     </task>
     <task id="LOCAL-00001" summary="mini project done">
       <created>1679090959682</created>
@@ -197,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679226027534</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="changed bg image">
+      <created>1679231394139</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679231394139</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +217,7 @@
     <MESSAGE value="edit file style.css, added padding added media query, edit media" />
     <MESSAGE value="edit file style.css, added padding added media query, edit media." />
     <MESSAGE value="added media.css file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added media.css file" />
+    <MESSAGE value="changed bg image" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed bg image" />
   </component>
 </project>
