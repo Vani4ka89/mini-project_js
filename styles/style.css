@@ -293,6 +293,10 @@ span {
     .post-title-block {
         margin-top: 30px;
     }
+
+    .post-title-block .list {
+        padding-left: 25px;
+    }
 }
 
 /*Large*/
