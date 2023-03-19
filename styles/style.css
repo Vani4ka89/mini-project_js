@@ -114,8 +114,7 @@ a {
 }
 
 .post-title-block .list {
-    margin: 0 0 0 60px;
-    padding-left: 0;
+    padding-left: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -221,4 +220,67 @@ span {
     color: indigo;
     font-family: cursive;
     font-weight: bold;
+}
+
+/************************************MEDIA QUERY*****************************/
+
+/*XS*/
+@media screen and (min-width: 0 ) and ( max-width: 576px ) {
+    .main-users-block {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .main-data {
+        flex-direction: column;
+        align-items: stretch;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .post-info {
+        max-width: 95%;
+    }
+}
+/*Small*/
+@media screen and (min-width: 576px ) and ( max-width: 767px ) {
+    .main-data {
+        margin-top: 25px;
+    }
+
+    .info-block {
+        flex-basis: 32%;
+    }
+
+    .post-title-block {
+        margin-top: 50px;
+    }
+
+    .post-title-block .list {
+        padding-left: 25px;
+    }
+
+    .list li {
+        flex-basis: 44%;
+    }
+}
+/*Medium*/
+@media screen and (min-width: 768px ) and ( max-width: 991px ) {
+    .info-block {
+        flex-basis: 32%;
+    }
+}
+/*Large*/
+@media screen and (min-width: 992px ) and ( max-width: 1199px ) {
+    .info-block {
+        flex-basis: 32%;
+    }
+}
+/*X-Large*/
+@media screen and (min-width: 1200px ) and ( max-width: 1399px ) {
+
+}
+/*XX-Large*/
+@media screen and (min-width: 1400px ) {
+
 }

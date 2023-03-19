@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="rename file users.html to index.html">
+    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="edit file style.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,8 @@
       <workItem from="1679090393305" duration="19000" />
       <workItem from="1679090439157" duration="9558000" />
       <workItem from="1679151436064" duration="6673000" />
+      <workItem from="1679176598057" duration="4526000" />
+      <workItem from="1679208749138" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="mini project done">
       <created>1679090959682</created>
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679156189720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="edit file style.css">
+      <created>1679180936525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679180936525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +101,7 @@
     <MESSAGE value="mini project done." />
     <MESSAGE value="mini project done" />
     <MESSAGE value="rename file users.html to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename file users.html to index.html" />
+    <MESSAGE value="edit file style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit file style.css" />
   </component>
 </project>
