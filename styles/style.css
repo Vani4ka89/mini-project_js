@@ -241,6 +241,14 @@ span {
     .post-info {
         max-width: 95%;
     }
+
+    .post-title-block {
+        margin-top: 30px;
+    }
+
+    .post-title-block .list {
+        flex-direction: column;
+    }
 }
 /*Small*/
 @media screen and (min-width: 576px ) and ( max-width: 767px ) {
