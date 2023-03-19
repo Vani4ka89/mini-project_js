@@ -248,6 +248,7 @@ span {
 
     .post-title-block .list {
         flex-direction: column;
+        padding-left: 25px;
     }
 }
 /*Small*/
