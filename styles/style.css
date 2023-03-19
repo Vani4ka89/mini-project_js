@@ -244,7 +244,7 @@ span {
     }
 
     .post-title-block {
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     .post-title-block .list {
@@ -268,7 +268,7 @@ span {
     }
 
     .post-title-block {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .post-title-block .list {
@@ -288,6 +288,10 @@ span {
 
     .info-block {
         flex-basis: 32%;
+    }
+
+    .post-title-block {
+        margin-top: 30px;
     }
 }
 
