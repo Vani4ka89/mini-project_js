@@ -300,6 +300,10 @@ span {
     .info-block {
         flex-basis: 32%;
     }
+
+    .post-title-block {
+        margin-top: 30px;
+    }
 }
 
 /*X-Large*/
