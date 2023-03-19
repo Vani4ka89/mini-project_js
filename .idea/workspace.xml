@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="edit file style.css, added padding added media query, edit media" />
+    <list default="true" id="1819b591-2925-4c27-84b9-dec0bd39160e" name="Changes" comment="edit file style.css, added padding added media query, edit media." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +54,7 @@
       <workItem from="1679176598057" duration="4526000" />
       <workItem from="1679208749138" duration="248000" />
       <workItem from="1679209118053" duration="7647000" />
+      <workItem from="1679218275783" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="mini project done">
       <created>1679090959682</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679217513361</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="edit file style.css, added padding added media query, edit media.">
+      <created>1679218540260</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679218540260</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,7 @@
     <MESSAGE value="edit file style.css, added media query, edit media" />
     <MESSAGE value="edit file style.css, added media query, edit media." />
     <MESSAGE value="edit file style.css, added padding added media query, edit media" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit file style.css, added padding added media query, edit media" />
+    <MESSAGE value="edit file style.css, added padding added media query, edit media." />
+    <option name="LAST_COMMIT_MESSAGE" value="edit file style.css, added padding added media query, edit media." />
   </component>
 </project>

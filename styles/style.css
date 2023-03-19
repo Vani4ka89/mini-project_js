@@ -255,6 +255,10 @@ span {
 }
 /*Small*/
 @media screen and (min-width: 576px ) and ( max-width: 767px ) {
+    .main-users-block {
+        padding-top: 10px;
+    }
+
     .main-data {
         margin-top: 25px;
     }
